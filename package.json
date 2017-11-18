@@ -4,8 +4,8 @@
   "license": "MIT",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
-    "build": "ng build",
+    "start": "ng serve --aot --host 0.0.0.0 --port 7777",    
+    "build": "ng build --prod --base-href 'https://u4bi-store.github.io/simple-ngrx-router-store/'",    
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
